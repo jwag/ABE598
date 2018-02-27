@@ -49,3 +49,7 @@ please run:
 ```
 pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py3-none-any.whl
 ```
+Also need to install jupyter
+```
+pip install jupyter
+```
