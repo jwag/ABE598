@@ -41,10 +41,10 @@ please run:
     -D INSTALL_PYTHON_EXAMPLES=ON \
     -D INSTALL_C_EXAMPLES=OFF \
     -D BUILD_EXAMPLES=ON \
-    -D EIGEN_INCLUDE_PATH=/usr/local/Cellar/eigen/3.3.4/include/eigen3 ..
-    ```
-    
-    When installing tensorflow, pip was not able to find the tensorflow package, so I had to install it using the binary as described here.
+    -D EIGEN_INCLUDE_PATH=/usr/local/Cellar/eigen/3.3.4/include/eigen3 \
+    -D WITH_CUDA=OFF ..
+  ```
+When installing tensorflow, pip was not able to find the tensorflow package, so I had to install it using the binary as described here.
      https://www.tensorflow.org/install/install_mac#the_url_of_the_tensorflow_python_package
 ```
 pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py3-none-any.whl
